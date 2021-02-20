@@ -1,3 +1,8 @@
+# To run app:
+
+1. docker build -t <Image name> .
+2. docker run --name <name> -dp 5000:3000 -v "$(pwd)"/src:/usr/src/app <image name>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
