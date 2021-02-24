@@ -22,7 +22,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <CardList name='Tman'/>
+        <CardList name='Tman'>
+          <h1>Hello</h1>
+        </CardList>
        {
          this.state.robots.map( robot => 
             <h1 key={robot.id} > {robot.name} </h1> 
