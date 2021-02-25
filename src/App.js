@@ -14,22 +14,17 @@ class App extends Component {
   }
 
   componentDidMount() {
+    console.log("I'm in componentDIdMount")
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
-    .then(users => this.setState({robots: users}))
-  }
+    .then(users => this.setState({robots: users}));
+  };  
 
   render() {
+    console.log("This is state robots in App.js", this.state.robots)
     return (
       <div className="App">
-        <CardList name='Tman'>
-          <h1>Hello</h1>
-        </CardList>
-       {
-         this.state.robots.map( robot => 
-            <h1 key={robot.id} > {robot.name} </h1> 
-          )
-       }
+        <CardList robots={this.state.robots} />       
       </div>
     );
   };
