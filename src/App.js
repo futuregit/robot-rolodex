@@ -9,21 +9,25 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      robots: []
+      robots: [],
+      searchField: ''
     };
   }
 
   componentDidMount() {
-    console.log("I'm in componentDIdMount")
+    //Grabbing json data from API server
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(users => this.setState({robots: users}));
   };  
 
   render() {
-    console.log("This is state robots in App.js", this.state.robots)
     return (
       <div className="App">
+        <input 
+          type='search' 
+          placeholder='search robots' 
+          onChange={e => this.setState({searchField: e.target.value})}  />
         <CardList robots={this.state.robots} />       
       </div>
     );
