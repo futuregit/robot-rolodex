@@ -1,7 +1,7 @@
 .card-container {
     display: flex;
     flex-direction: column;
-    background-color: #95dada;
+    background-color: rgba(30, 52, 142, 0.5);
     border: 1px solid grey;
     border-radius: 5px;
     padding: 25px;
@@ -9,21 +9,7 @@
     -moz-osx-font-smoothing: grayscale;
     backface-visibility: hidden;
     transform: translateZ(0);
-    transition: transform 0.25s ease-out;
-    /* to be cleaned up later */
-    margin: 0 auto;
-    padding: 8px;
-    width: 80%;
-    max-width: 200px;
-    background: #fff; /* fallback color for old browsers */
-    background: rgba(30, 52, 142, 0.5) !important;
-    border-radius: 8px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 1px;
-    transition: all 0.3s ease-out;
-    border: 1px solid #fff !important;
+    transition: transform 0.25s ease-out;    
   }
   
   .card-container:hover {
