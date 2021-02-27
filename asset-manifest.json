@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/robot-rolodex/static/css/main.71b5df5e.chunk.css",
+    "main.js": "/robot-rolodex/static/js/main.ec763fed.chunk.js",
+    "main.js.map": "/robot-rolodex/static/js/main.ec763fed.chunk.js.map",
+    "runtime-main.js": "/robot-rolodex/static/js/runtime-main.837bcafe.js",
+    "runtime-main.js.map": "/robot-rolodex/static/js/runtime-main.837bcafe.js.map",
+    "static/js/2.f29115cc.chunk.js": "/robot-rolodex/static/js/2.f29115cc.chunk.js",
+    "static/js/2.f29115cc.chunk.js.map": "/robot-rolodex/static/js/2.f29115cc.chunk.js.map",
+    "static/js/3.cc430395.chunk.js": "/robot-rolodex/static/js/3.cc430395.chunk.js",
+    "static/js/3.cc430395.chunk.js.map": "/robot-rolodex/static/js/3.cc430395.chunk.js.map",
+    "index.html": "/robot-rolodex/index.html",
+    "static/css/main.71b5df5e.chunk.css.map": "/robot-rolodex/static/css/main.71b5df5e.chunk.css.map",
+    "static/js/2.f29115cc.chunk.js.LICENSE.txt": "/robot-rolodex/static/js/2.f29115cc.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/robot-rolodex/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.837bcafe.js",
+    "static/js/2.f29115cc.chunk.js",
+    "static/css/main.71b5df5e.chunk.css",
+    "static/js/main.ec763fed.chunk.js"
+  ]
+}
